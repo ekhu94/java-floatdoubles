@@ -17,5 +17,10 @@ public class Main {
         double minDouble = Double.MIN_VALUE;
         System.out.println("Double Maximum Value = " + maxDouble);
         System.out.println("Double Minimum Value = " + minDouble);
+
+        // CHALLENGE: convert lbs to kilograms
+        int myPoundage = 173;
+        double myKilogramFatnessLevel = myPoundage * 0.45359237;
+        System.out.println("I weight " + myPoundage + "lbs and that converts into " + myKilogramFatnessLevel + " kilos...:(");
     }
 }
